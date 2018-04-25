@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE577A60208CADE20049AB0C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE577A5F208CADE20049AB0C /* ResultViewController.swift */; };
 		CE64694C2088C14000EC9A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64694B2088C14000EC9A86 /* AppDelegate.swift */; };
 		CE64694E2088C14000EC9A86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64694D2088C14000EC9A86 /* ViewController.swift */; };
 		CE6469512088C14000EC9A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE64694F2088C14000EC9A86 /* Main.storyboard */; };
 		CE6469532088C14100EC9A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6469522088C14100EC9A86 /* Assets.xcassets */; };
 		CE6469562088C14100EC9A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6469542088C14100EC9A86 /* LaunchScreen.storyboard */; };
+		CE64695E2088C1A500EC9A86 /* ダウンロード.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE64695D2088C1A500EC9A86 /* ダウンロード.jpeg */; };
+		CEDB7BD82089D3FB00B0B601 /* panda.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEDB7BD72089D3FB00B0B601 /* panda.jpeg */; };
+		CEDB7BDA2089D45400B0B601 /* neko2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEDB7BD92089D45400B0B601 /* neko2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE577A5F208CADE20049AB0C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		CE6469482088C14000EC9A86 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE64694B2088C14000EC9A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE64694D2088C14000EC9A86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		CE6469522088C14100EC9A86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6469552088C14100EC9A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6469572088C14100EC9A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE64695D2088C1A500EC9A86 /* ダウンロード.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ダウンロード.jpeg"; sourceTree = "<group>"; };
+		CEDB7BD72089D3FB00B0B601 /* panda.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panda.jpeg; sourceTree = "<group>"; };
+		CEDB7BD92089D45400B0B601 /* neko2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,9 @@
 			children = (
 				CE64694A2088C14000EC9A86 /* SlideshowApp */,
 				CE6469492088C14000EC9A86 /* Products */,
+				CEDB7BD72089D3FB00B0B601 /* panda.jpeg */,
+				CEDB7BD92089D45400B0B601 /* neko2.jpeg */,
+				CE64695D2088C1A500EC9A86 /* ダウンロード.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +65,7 @@
 		CE64694A2088C14000EC9A86 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE577A5F208CADE20049AB0C /* ResultViewController.swift */,
 				CE64694B2088C14000EC9A86 /* AppDelegate.swift */,
 				CE64694D2088C14000EC9A86 /* ViewController.swift */,
 				CE64694F2088C14000EC9A86 /* Main.storyboard */,
@@ -122,9 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE64695E2088C1A500EC9A86 /* ダウンロード.jpeg in Resources */,
+				CEDB7BD82089D3FB00B0B601 /* panda.jpeg in Resources */,
 				CE6469562088C14100EC9A86 /* LaunchScreen.storyboard in Resources */,
 				CE6469532088C14100EC9A86 /* Assets.xcassets in Resources */,
 				CE6469512088C14000EC9A86 /* Main.storyboard in Resources */,
+				CEDB7BDA2089D45400B0B601 /* neko2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +152,7 @@
 			files = (
 				CE64694E2088C14000EC9A86 /* ViewController.swift in Sources */,
 				CE64694C2088C14000EC9A86 /* AppDelegate.swift in Sources */,
+				CE577A60208CADE20049AB0C /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
