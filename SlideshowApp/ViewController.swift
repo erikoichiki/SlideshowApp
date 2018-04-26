@@ -11,12 +11,23 @@ import UIKit
 class ViewController: UIViewController {
     
         @IBAction func unwind(_ segue: UIStoryboardSegue) {
+            if self.timer==nil{
+                self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(ViewController.onTimer), userInfo: nil, repeats: true)
+                zbutton.setTitle("停止", for: .normal)
+                susumu.isEnabled = false
+                modoru.isEnabled = false
+                
+            }else if self.timer != nil{
+                zbutton.setTitle("再生", for: .normal)
+                self.timer?.invalidate()
+                self.timer=nil
+                susumu.isEnabled = true
+                modoru.isEnabled = true
+                }
     }
-
     @IBAction func tapimage(_ sender: Any) {
         performSegue(withIdentifier: "kakudai",sender: nil)
-        
-        
+        self.timer?.invalidate()
     }
     
     @IBOutlet weak var modoru: UIButton!
